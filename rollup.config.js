@@ -21,5 +21,6 @@ export default {
       presets: ['@babel/preset-env']
     }),
     terser()
-  ]
+  ],
+  external: ['quasar']
 };
