@@ -1,0 +1,36 @@
+{
+  "name": "quasar-project",
+  "version": "0.0.1",
+  "description": "A Quasar Project",
+  "productName": "Quasar App",
+  "author": "",
+  "private": true,
+  "scripts": {
+    "test": "echo \"No test specified\" && exit 0",
+    "dev": "quasar dev",
+    "build": "rollup -c"
+  },
+  "dependencies": {
+    "@quasar/extras": "^1.16.4",
+    "quasar": "^2.16.0",
+    "rollup-plugin-terser": "^7.0.2",
+    "vue": "^3.4.18",
+    "vue-router": "^4.0.12"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.24.7",
+    "@babel/preset-env": "^7.24.7",
+    "@quasar/app-vite": "^1.9.0",
+    "autoprefixer": "^10.4.2",
+    "postcss": "^8.4.14",
+    "rollup": "^2.0.0",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-vue": "^6.0.0",
+    "vue-template-compiler": "^2.7.16"
+  },
+  "engines": {
+    "node": "^20 || ^18 || ^16",
+    "npm": ">= 6.13.4",
+    "yarn": ">= 1.21.1"
+  }
+}
