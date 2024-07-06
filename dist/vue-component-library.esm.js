@@ -1,0 +1,1 @@
+import{resolveComponent as e,openBlock as n,createBlock as o}from"vue";const t={render:function(t,r){var u=e("q-btn");return n(),o(u,{label:"Button",size:"lg"})},__file:"src/components/DemoComponent.vue"};export{t as MyButton};
