@@ -5,6 +5,12 @@
   "productName": "Quasar App",
   "author": "",
   "private": true,
+  "main": "dist/quasar-component-library.cjs.js",
+  "module": "dist/quasar-component-library.esm.js",
+  "files": [
+    "dist",
+    "src"
+  ],
   "scripts": {
     "test": "echo \"No test specified\" && exit 0",
     "dev": "quasar dev",
