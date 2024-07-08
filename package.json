@@ -25,6 +25,9 @@
     "vue": "^3.4.18",
     "vue-router": "^4.0.12"
   },
+  "peerDependencies": {
+    "quasar": "^2.16.0"
+  },
   "devDependencies": {
     "@babel/core": "^7.24.7",
     "@babel/preset-env": "^7.24.7",

@@ -17,7 +17,9 @@ export default {
   ],
   plugins: [
     resolve(),
-    commonjs(),
+    commonjs({
+      include: /node_modules/
+    }),
     vue(),
     babel({
       exclude: 'node_modules/**',
@@ -25,5 +27,4 @@ export default {
     }),
     terser()
   ],
-  external: ['quasar']
 };
