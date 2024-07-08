@@ -5,8 +5,8 @@
   "productName": "Quasar App",
   "author": "",
   "private": true,
-  "main": "dist/quasar-component-library.cjs.js",
-  "module": "dist/quasar-component-library.esm.js",
+  "main": "dist/vue-component-library.cjs.js",
+  "module": "dist/vue-component-library.esm.js",
   "files": [
     "dist",
     "src"
