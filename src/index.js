@@ -1,5 +1,10 @@
-import { createApp } from 'vue';
-import { Quasar } from 'quasar';
+import {
+  createApp
+} from 'vue';
+import {
+  QBtn,
+  Quasar
+} from 'quasar';
 import 'quasar/dist/quasar.css';
 import MyButton from './components/DemoComponent.vue';
 
@@ -7,6 +12,7 @@ import MyButton from './components/DemoComponent.vue';
 const install = (app) => {
   app.use(Quasar, {
     components: {
+      QBtn,
       MyButton,
     },
   });
@@ -14,4 +20,8 @@ const install = (app) => {
   app.component('MyButton', MyButton);
 };
 
-export { MyButton, install as default };
+export {
+  MyButton,
+  install as
+  default
+};
