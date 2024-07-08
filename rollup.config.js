@@ -27,4 +27,5 @@ export default {
     }),
     terser()
   ],
+  external: ['vue', 'quasar']
 };
