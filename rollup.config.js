@@ -16,7 +16,11 @@ export default {
     }
   ],
   plugins: [
-    resolve(),
+    resolve({
+      extensions: ['.js', '.jsx', '.ts', '.tsx', '.vue'],
+      preferBuiltins: true,
+      browser: true
+    }),
     commonjs({
       include: /node_modules/
     }),
