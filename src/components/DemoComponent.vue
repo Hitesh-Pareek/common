@@ -3,7 +3,7 @@
   //Just a comment
 </template>
 <script setup>
-import { QBtn } from "Quasar";
+// import { QBtn } from "Quasar";
 </script>
 <style scoped>
 </style>
