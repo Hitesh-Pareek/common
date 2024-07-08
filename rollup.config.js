@@ -29,7 +29,6 @@ export default {
     css({ output: 'bundle.css' }),
     vue(),
     babel({
-      exclude: 'node_modules/**',
       presets: ['@babel/preset-env']
     }),
     terser(),
