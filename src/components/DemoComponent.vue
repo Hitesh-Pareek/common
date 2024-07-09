@@ -1,5 +1,5 @@
 <template>
-<QBtn label="Button" size="sm"></QBtn>
+<q-btn label="Button" size="sm"></q-btn>
 </template>
 <script setup>
 </script>

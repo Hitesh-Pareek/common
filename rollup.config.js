@@ -34,5 +34,5 @@ export default {
     }),
     terser(),
   ],
-  external: ['vue']
+  external: ['vue',]
 };
