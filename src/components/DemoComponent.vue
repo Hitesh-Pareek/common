@@ -1,9 +1,8 @@
 <template>
-  <q-btn label="Button" size="lg"> </q-btn>
-  //Just a comment
+<QBtn label="Button" size="sm"></QBtn>
 </template>
 <script setup>
-// import { QBtn } from "Quasar";
+import { QBtn } from "Quasar";
 </script>
 <style scoped>
 </style>

@@ -10,7 +10,7 @@ export default {
   output: [
     {
       file: 'dist/vue-component-library.cjs.js',
-      format: 'cjs'
+      format: 'cjs',
     },
     {
       file: 'dist/vue-component-library.esm.js',
@@ -29,9 +29,10 @@ export default {
     css({ output: 'bundle.css' }),
     vue(),
     babel({
+      exclude: 'node_modules/**',
       presets: ['@babel/preset-env']
     }),
     terser(),
   ],
-  external: ['vue','quasar']
+  external: ['vue']
 };
