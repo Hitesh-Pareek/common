@@ -11,6 +11,7 @@ export default {
     {
       file: 'dist/vue-component-library.cjs.js',
       format: 'cjs',
+      exports: 'named'
     },
     {
       file: 'dist/vue-component-library.esm.js',

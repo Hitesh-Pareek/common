@@ -1,11 +1,11 @@
-import { Quasar, QBtn } from 'quasar';
+import { Quasar } from 'quasar';
+import 'quasar/dist/quasar.css';
 
 const install = (app) => {
   app.use(Quasar, {
-    config: {},
     components: {
-      QBtn,
-      // Add more Quasar components here if needed
+      QBtn: require('quasar').QBtn,
+      // Add other Quasar components here as needed
     }
   });
 };

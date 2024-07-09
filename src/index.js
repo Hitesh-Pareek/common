@@ -1,12 +1,9 @@
-import {
-  QBtn,
-  Quasar
-} from 'quasar';
-import 'quasar/dist/quasar.css';
+import QuasarPlugin from './quasar';
 import MyButton from './components/DemoComponent.vue';
 
-export {
-  MyButton,
-  Quasar,
-  QBtn
+const install = (app) => {
+  app.use(QuasarPlugin);
+  app.component('MyButton', MyButton);
 };
+
+export { MyButton, install as default };
